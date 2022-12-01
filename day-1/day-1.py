@@ -12,4 +12,10 @@ for x in input:
         sumArr.append(total)
         total = 0
 
+#Part 1 Answer
 print(max(sumArr))
+
+#Part 2 Answer
+sumArr.sort(reverse=True)
+sumArr = sumArr[:3]
+print(sum(sumArr))
